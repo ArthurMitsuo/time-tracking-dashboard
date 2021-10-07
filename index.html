@@ -3,78 +3,98 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="/css/user-style.css">
+  <link rel="stylesheet" href="/css/cards.css">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
   <title>Frontend Mentor | Time tracking dashboard</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
+  <!-- <style>
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  </style> -->
 </head>
 <body>
+  <header class="container__header">
+    <section class="container__user">
+      <article class="inner-container__user">
+          <img src="/images/image-jeremy.png" alt="user picture" class="user-picture">
+        <div class="report-name">
+          <h2 class="report__text">Report for</h2>
+          <h1 class="user-name__text">Jeremy Robson</h1>
+        </div>
+      </article>
+      <article class="container__texts-area">
+        <p class="daily-text-user text-user">Daily</p>
+        <p class="weekly-text-user text-user">Weekly</p>
+        <p class="monthly-text-user text-user">Monthly</p>
+      </article>    
+    </section>
+  </header>
+  <main class="container__main">
+    <section class="container__work outside-container-card__style">
+      <article class="inner-container__work inner-container__style">
+        <div class="time-inner__container">
+          <p class="name-tag">Work</p>
+          <span class="hours-quantity">
+            <p class="hours-tag-quantity hours-tag-work">32</p>
+            <p class="hrs-main">hrs</p>
+          </span>
+        </div>
+        <div class="previous-inner__container">
+          <p href="#" class="three-dots">...</p>
+          <span class="previoues-container">
+            <p class="previous-hours previous-hours-work">Last Week</p>
+            <p class="mid-phrase">-</p>
+            <p class="time-hours-previous">36</p>
+            <p class="hours-previous">hrs</p>
+          </span>
+          
+        </div>
+      </article>
+    </section>
+    <section class="container__play outside-container-card__style">
+      <article class="inner-container__play inner-container__style">
+        <div class="time-inner__container">
+          <p class="name-tag">play</p>
+          <p class="hours-tag hours-tag-play">10hrs</p>
+        </div>
+        <div class="previous-inner__container">
+          <p class="three-dots">...</p>
+          <p class="previous-hours previous-hours-play"></p>
+        </div>
+      </article>
+    </section>
+    <section class="container__study outside-container-card__style">
+      <article class="inner-container__study inner-container__style">
 
-  Report for
-  Jeremy Robson
+      </article>
+    </section>
+    <section class="container__exercise outside-container-card__style">
+      <article class="inner-container__exercise inner-container__style">
 
-  Daily
-  Weekly
-  Monthly
+      </article>
+    </section>
+    <section class="container_social outside-container-card__style">
+      <article class="inner-container__social inner-container__style">
 
-  Work
-  5hrs <!-- daily -->
-  Previous - 7hrs <!-- daily -->
-  32hrs <!-- weekly -->
-  Previous - 36hrs <!-- weekly -->
-  103hrs <!-- monthly -->
-  Previous - 128hrs <!-- monthly -->
+      </article>
+    </section>
+    <section class="container__self-care outside-container-card__style">
+      <article class="inner-container__self-care inner-container__style">
 
-  Play
-  1hr <!-- daily -->
-  Previous - 2hrs <!-- daily -->
-  10hrs <!-- weekly -->
-  Previous - 8hrs <!-- weekly -->
-  23hrs <!-- monthly -->
-  Previous - 29hrs <!-- monthly -->
-
-  Study
-  0hrs <!-- daily -->
-  Previous - 1hr <!-- daily -->
-  4hrs <!-- weekly -->
-  Previous - 7hrs <!-- weekly -->
-  13hrs <!-- monthly -->
-  Previous - 19hrs <!-- monthly -->
-
-  Exercise
-  1hr <!-- daily -->
-  Previous - 1hr <!-- daily -->
-  4hrs <!-- weekly -->
-  Previous - 5hrs <!-- weekly -->
-  11hrs <!-- monthly -->
-  Previous - 18hrs <!-- monthly -->
-
-  Social
-  1hr <!-- daily -->
-  Previous - 3hrs <!-- daily -->
-  5hrs <!-- weekly -->
-  Previous - 10hrs <!-- weekly -->
-  21hrs <!-- monthly -->
-  Previous - 23hrs <!-- monthly -->
-
-  Self Care
-  0hrs <!-- daily -->
-  Previous - 1hr <!-- daily -->
-  2hrs <!-- weekly -->
-  Previous - 2hrs <!-- weekly -->
-  7hrs <!-- monthly -->
-  Previous - 11hrs <!-- monthly -->
-
+      </article>
+    </section>
+  </main>
   
-  <div class="attribution">
+  <!-- <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+    Coded by <a href="#">Arthur Mitsuo Matsuzaka Ferreira</a>.
+  </div> -->
 </body>
 </html>

@@ -1,0 +1,58 @@
+.container__user{
+    width: 90%;
+    margin:0 auto;
+    height: 13.7rem;
+    background-color: hsl(235, 46%, 20%);
+    border-radius: 25px;
+    color: hsl(235, 45%, 61%);
+}
+
+.container__texts-area{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top:20px;
+}
+.text-user:hover{
+    color: snow;
+}
+
+
+.inner-container__user {
+    border: 1px solid black;
+    background-color: hsl(246, 80%, 60%);
+    width: 100%;
+    height: 10rem;
+    margin: 50px auto 0 auto;
+
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 25px;
+}
+.user-picture{
+    width: 5rem;
+    border: 4px solid snow;
+    border-radius: 50%; 
+}
+.report-name{
+    color:snow;
+}
+.report__text{
+    margin-bottom: 10px;
+}
+.user-name__text{
+    font-size: 1.5rem;
+}
+@media (max-width: 320px){
+    .user-picture {
+        width: 5rem;
+        border: 4px solid snow;
+        border-radius: 50%;
+        margin-left: 20px;
+    }
+
+    .report-name {
+        color: snow;
+        margin-left: 30px;
+    }
+}
