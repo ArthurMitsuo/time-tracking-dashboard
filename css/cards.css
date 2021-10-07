@@ -1,7 +1,7 @@
 .outside-container-card__style{
     height: 13.2rem;
     width: 90%;
-    border-radius: 25px;
+    border-radius: 25px 25px 30px 30px;
     margin: 30px auto;
     
     display: flex;
