@@ -1,6 +1,6 @@
 .outside-container-card__style{
     height: 13.2rem;
-    width: 90%;
+    width: 20rem;
     border-radius: 25px 25px 30px 30px;
     margin: 30px auto;
     
@@ -29,37 +29,37 @@
     background-color: hsl(15, 100%, 70%);
     background-image: url("/images/icon-work.svg");
     background-repeat: no-repeat;
-    background-position-x:90%;
+    background-position-x:80%;
 }
 .container__play{
     background-color: hsl(195, 74%, 62%);
     background-image: url("/images/icon-play.svg");
     background-repeat: no-repeat;
-    background-position-x:90%;
+    background-position-x:80%;
 }
 .container__study{
     background-color: hsl(348, 100%, 68%);
     background-image: url("/images/icon-study.svg");
     background-repeat: no-repeat;
-    background-position-x:90%;
+    background-position-x:80%;
 }
 .container__exercise {
     background-color: hsl(145, 58%, 55%);
     background-image: url("/images/icon-exercise.svg");
     background-repeat: no-repeat;
-    background-position-x:90%;
+    background-position-x:80%;
 }
 .container_social{
     background-color: hsl(264, 64%, 52%);
     background-image: url("/images/icon-social.svg");
     background-repeat: no-repeat;
-    background-position-x:90%;
+    background-position-x:80%;
 }
 .container__self-care {
     background-color: hsl(43, 84%, 65%);
     background-image: url("/images/icon-self-care.svg");
     background-repeat: no-repeat;
-    background-position-x:90%;
+    background-position-x:80%;
     margin-bottom: 40px;
 }
 
@@ -70,14 +70,17 @@
     font-weight: 500;
     grid-area: name;
     align-self: end;
+    justify-self: start;
 }
 .hours-quantity{
    display: flex;
    font-size: 2rem;
    grid-area: hours;
+   justify-self: start;
 }
 .hours-tag-quantity{
     font-size: 2rem;
+    
 }
 
 .three-dots{
@@ -90,12 +93,15 @@
 }
 .previous-container{
     display: flex;
+    flex: 1 2 auto;
     margin-top: 20px;
     padding-bottom: 10px;
     grid-area: previous;
     justify-self: end;
     color: hsl(235, 45%, 61%);
 }
+
+
 
 @media (max-width: 320px){
     .inner-container__style{
@@ -137,7 +143,7 @@
         grid-area: self-care;
     }
     .outside-container-card__style {
-        width: 90%;
+        width: 13rem;
         height: 13.2rem;
         margin: 10px auto;
     }
@@ -179,6 +185,6 @@
         justify-self: start;
         align-self: start;
     }
-    
+        
 
 }

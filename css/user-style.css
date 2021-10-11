@@ -15,6 +15,9 @@
 .text-user:hover{
     color: snow;
 }
+.text-user-focus{
+    color: snow;
+}
 
 
 .inner-container__user {
@@ -67,8 +70,8 @@
         justify-items: stretch;
         justify-content: stretch;
         align-items: stretch;
-        column-gap: 10px;
-        row-gap: 10px;
+        column-gap: 5px;
+        row-gap: 5px;
         grid-template-columns: 1fr 1fr 1fr 1fr;
         grid-template-areas:"header main main main";
     }
