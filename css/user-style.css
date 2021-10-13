@@ -5,6 +5,7 @@
     background-color: hsl(235, 46%, 20%);
     border-radius: 25px;
     color: hsl(235, 45%, 61%);
+    cursor:default;
 }
 
 .container__texts-area{
@@ -14,6 +15,7 @@
 }
 .text-user:hover{
     color: snow;
+    cursor: pointer;
 }
 .text-user-focus{
     color: snow;
@@ -21,7 +23,6 @@
 
 
 .inner-container__user {
-    border: 1px solid black;
     background-color: hsl(246, 80%, 60%);
     width: 100%;
     height: 10rem;

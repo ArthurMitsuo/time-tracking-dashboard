@@ -1,6 +1,6 @@
 .outside-container-card__style{
     height: 13.2rem;
-    width: 20rem;
+    width: 90%;
     border-radius: 25px 25px 30px 30px;
     margin: 30px auto;
     
@@ -23,6 +23,10 @@
                         "hours previous";
     justify-items: center;
     justify-content: center;
+}
+.inner-container__style:hover {
+    background-color: hsl(236, 45%, 30%);
+    cursor: pointer;
 }
 
 .container__work{
@@ -91,6 +95,10 @@
     justify-self: end;
     color: hsl(235, 45%, 61%);
 }
+.three-dots:hover{
+    color: snow;
+    cursor: pointer;
+}
 .previous-container{
     display: flex;
     flex: 1 2 auto;
@@ -99,6 +107,10 @@
     grid-area: previous;
     justify-self: end;
     color: hsl(235, 45%, 61%);
+    height: .9rem;
+    width: 170px;
+    flex-wrap: wrap;
+    justify-content: flex-end;
 }
 
 
@@ -182,8 +194,9 @@
     
     .previous-container{
         grid-area: previous;
-        justify-self: start;
         align-self: start;
+        justify-content: start;
+        width: 100%;
     }
         
 
